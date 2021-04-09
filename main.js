@@ -4,7 +4,6 @@ const url = require('url');
 const app = http.createServer(function(request, response){
     http.IncomingMessage
     let _url = request.url;
-    url.parse
     let queryData = new URLSearchParams(url.search);
 
     if(_url == '/'){
