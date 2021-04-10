@@ -7,8 +7,8 @@ app.listen(port, () => {
 });
 
 
-const indexRouter = require('./index');
-const testRouter = require('./test');
+const indexRouter = require('./route1');
+const testRouter = require('./route2');
  
 app.use('/', indexRouter);
 app.use('/test', testRouter);
